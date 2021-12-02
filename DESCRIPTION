@@ -1,0 +1,23 @@
+Package: pguPainDiffusion
+Type: Package
+Title: Numerical PK/PD model of diffusion of intracutaneously applied capsaicin-evoked pain in the spinal cord
+Version: 0.0.0.5
+Date: 2021-11-02
+Authors@R: c(
+    person(given = "Sebastian",
+           family = "Malkusch",
+           role = c("aut", "cre"),
+           email = "malkusch@med.uni-frankfurt.de",
+           comment = c(ORCID = "0000-0001-6766-140X")),
+    person(given = "Joern",
+           family = "Loetsch",
+           role = c("aut"),
+           email = "j.loetsch@em.uni-frankfurt.de",
+           comment = c(ORCID = "0000-0002-5818-6958")))
+Maintainer: Sebastian Malkusch <malkusch@med.uni-frankfurt.de>
+Description: Numerical PK/PD model of diffusion of intracutaneously applied capsaicin-evoked pain in the spinal cord.
+License: GPL-3
+Depends: Rcpp (>= 1.0.7)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.1.1
+Encoding: UTF-8

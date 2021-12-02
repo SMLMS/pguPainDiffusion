@@ -1,0 +1,7 @@
+library("roxygen2")
+roxygen2::roxygenise()
+
+R CMD build pguPainDiffusion
+R CMD check pguPainDiffusion_0.0.0.3.tar.gz --no-examples --no-tests
+
+install.packages("~/code/r/pguPainDiffusion_0.0.0.3.tar.gz", repos = NULL, type ="source")
